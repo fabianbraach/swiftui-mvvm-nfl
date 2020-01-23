@@ -13,6 +13,18 @@
 		5CC64D7923D325BF00C011C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC64D7823D325BF00C011C0 /* Assets.xcassets */; };
 		5CC64D7C23D325BF00C011C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC64D7B23D325BF00C011C0 /* Preview Assets.xcassets */; };
 		5CC64D7F23D325BF00C011C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC64D7D23D325BF00C011C0 /* LaunchScreen.storyboard */; };
+		5CC64D8A23D3260800C011C0 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D8923D3260800C011C0 /* TeamsView.swift */; };
+		5CC64D8E23D326A200C011C0 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D8D23D326A200C011C0 /* TeamView.swift */; };
+		5CC64D9423D326D100C011C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D9323D326D100C011C0 /* CardView.swift */; };
+		5CC64D9623D32D5800C011C0 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D9523D32D5800C011C0 /* TeamsViewModel.swift */; };
+		5CC64D9923D32DBB00C011C0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D9823D32DBB00C011C0 /* Team.swift */; };
+		5CC64D9D23D3324500C011C0 /* TeamsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D9C23D3324500C011C0 /* TeamsService.swift */; };
+		5CC64DA023D3325300C011C0 /* TeamsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64D9F23D3325300C011C0 /* TeamsRepository.swift */; };
+		5CC64DA323D332CB00C011C0 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64DA223D332CB00C011C0 /* APIRepository.swift */; };
+		5CC64DA523D3349500C011C0 /* NFLRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64DA423D3349500C011C0 /* NFLRepository.swift */; };
+		5CC64DA723D34AFE00C011C0 /* TeamsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64DA623D34AFE00C011C0 /* TeamsResponse.swift */; };
+		5CC64DA923D34B3700C011C0 /* LogoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64DA823D34B3700C011C0 /* LogoRepository.swift */; };
+		5CC64DAC23D4955500C011C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC64DAB23D4955500C011C0 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		5CC64D7B23D325BF00C011C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CC64D7E23D325BF00C011C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CC64D8023D325BF00C011C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC64D8923D3260800C011C0 /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		5CC64D8D23D326A200C011C0 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		5CC64D9323D326D100C011C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5CC64D9523D32D5800C011C0 /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		5CC64D9823D32DBB00C011C0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5CC64D9C23D3324500C011C0 /* TeamsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsService.swift; sourceTree = "<group>"; };
+		5CC64D9F23D3325300C011C0 /* TeamsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsRepository.swift; sourceTree = "<group>"; };
+		5CC64DA223D332CB00C011C0 /* APIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		5CC64DA423D3349500C011C0 /* NFLRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLRepository.swift; sourceTree = "<group>"; };
+		5CC64DA623D34AFE00C011C0 /* TeamsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsResponse.swift; sourceTree = "<group>"; };
+		5CC64DA823D34B3700C011C0 /* LogoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoRepository.swift; sourceTree = "<group>"; };
+		5CC64DAB23D4955500C011C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 		5CC64D7123D325B900C011C0 /* NFL */ = {
 			isa = PBXGroup;
 			children = (
+				5CC64D8623D325E200C011C0 /* Classes */,
 				5CC64D7223D325B900C011C0 /* AppDelegate.swift */,
 				5CC64D7423D325B900C011C0 /* SceneDelegate.swift */,
 				5CC64D7623D325B900C011C0 /* ContentView.swift */,
@@ -73,6 +98,89 @@
 				5CC64D7B23D325BF00C011C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CC64D8623D325E200C011C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D9023D326B600C011C0 /* Common */,
+				5CC64D8723D325EB00C011C0 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5CC64D8723D325EB00C011C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D8823D325F400C011C0 /* Teams */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5CC64D8823D325F400C011C0 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D8923D3260800C011C0 /* TeamsView.swift */,
+				5CC64D8D23D326A200C011C0 /* TeamView.swift */,
+				5CC64D9523D32D5800C011C0 /* TeamsViewModel.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		5CC64D8F23D326AE00C011C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D9323D326D100C011C0 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CC64D9023D326B600C011C0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64DAA23D4954D00C011C0 /* Extensions */,
+				5CC64D9E23D3324800C011C0 /* Repositories */,
+				5CC64D9B23D3322D00C011C0 /* Services */,
+				5CC64D9723D32DB400C011C0 /* Models */,
+				5CC64D8F23D326AE00C011C0 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5CC64D9723D32DB400C011C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D9823D32DBB00C011C0 /* Team.swift */,
+				5CC64DA623D34AFE00C011C0 /* TeamsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CC64D9B23D3322D00C011C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D9C23D3324500C011C0 /* TeamsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5CC64D9E23D3324800C011C0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64D9F23D3325300C011C0 /* TeamsRepository.swift */,
+				5CC64DA223D332CB00C011C0 /* APIRepository.swift */,
+				5CC64DA423D3349500C011C0 /* NFLRepository.swift */,
+				5CC64DA823D34B3700C011C0 /* LogoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		5CC64DAA23D4954D00C011C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CC64DAB23D4955500C011C0 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +256,19 @@
 			files = (
 				5CC64D7323D325B900C011C0 /* AppDelegate.swift in Sources */,
 				5CC64D7523D325B900C011C0 /* SceneDelegate.swift in Sources */,
+				5CC64D8E23D326A200C011C0 /* TeamView.swift in Sources */,
+				5CC64DA723D34AFE00C011C0 /* TeamsResponse.swift in Sources */,
 				5CC64D7723D325B900C011C0 /* ContentView.swift in Sources */,
+				5CC64DA023D3325300C011C0 /* TeamsRepository.swift in Sources */,
+				5CC64D9923D32DBB00C011C0 /* Team.swift in Sources */,
+				5CC64D9623D32D5800C011C0 /* TeamsViewModel.swift in Sources */,
+				5CC64DAC23D4955500C011C0 /* Color.swift in Sources */,
+				5CC64DA923D34B3700C011C0 /* LogoRepository.swift in Sources */,
+				5CC64D9D23D3324500C011C0 /* TeamsService.swift in Sources */,
+				5CC64DA323D332CB00C011C0 /* APIRepository.swift in Sources */,
+				5CC64D9423D326D100C011C0 /* CardView.swift in Sources */,
+				5CC64DA523D3349500C011C0 /* NFLRepository.swift in Sources */,
+				5CC64D8A23D3260800C011C0 /* TeamsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
